@@ -2,8 +2,11 @@
 using namespace std;
 
 int main(){
-    for(int row = 1; row <= 5; row++){
-        for(int col = 1; col<= 5-row; col++){
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+    for(int row = 1; row <= n; row++){
+        for(int col = 1; col<= n-row; col++){
             cout<<" ";
         }
         for(int col = 1; col <= row; col++){
